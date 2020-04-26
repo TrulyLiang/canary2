@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="canary-consumer" />
+        <module name="canary-provider-beta" />
+        <module name="canary-consumer-feign-hytrix" />
+        <module name="canary-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="canary-consumer" target="1.8" />
+      <module name="canary-consumer-feign-hytrix" target="1.8" />
+      <module name="canary-demo" target="1.8" />
+      <module name="canary-provider" target="1.8" />
+      <module name="canary-provider-beta" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="canary-consumer" options="-parameters" />
+      <module name="canary-consumer-feign-hytrix" options="-parameters" />
+      <module name="canary-provider" options="-parameters" />
+      <module name="canary-provider-beta" options="-parameters" />
+    </option>
+  </component>
+</project>

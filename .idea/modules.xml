@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/canary-consumer/canary-consumer.iml" filepath="$PROJECT_DIR$/canary-consumer/canary-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canary-consumer-feign-hytrix/canary-consumer-feign-hytrix.iml" filepath="$PROJECT_DIR$/canary-consumer-feign-hytrix/canary-consumer-feign-hytrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canary-demo.iml" filepath="$PROJECT_DIR$/canary-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canary-provider/canary-provider.iml" filepath="$PROJECT_DIR$/canary-provider/canary-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canary-provider-beta/canary-provider-beta.iml" filepath="$PROJECT_DIR$/canary-provider-beta/canary-provider-beta.iml" />
+    </modules>
+  </component>
+</project>
